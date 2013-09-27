@@ -151,7 +151,7 @@ angular.module('ContactManager')
         * Slave data is to be saved to the Server 
         * Slave data is been saved to the localStorage for future sync 
         **/
-        var data = decodeURIComponent(data);
+        var data = decodeURIComponent(data).replace(/\+/g,' ');
         var dataJson = JSON.parse('{"' + decodeURI(data).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
         var dataSetMaster = JSON.parse(localStorage.getItem('contacts'));
         var dataSetSlave = JSON.parse(localStorage.getItem('contactsUpdated'));

@@ -1,6 +1,7 @@
 CACHE MANIFEST
-# manifest version 1.0.1
+# manifest version 1.0.2
 # Files to cache
+CACHE:
 index.html
 
 styles/13bd1b2a.main.css
@@ -12,6 +13,12 @@ scripts/45a9ae6a.scripts.js
 
 views/main.html
 views/add.html
+
+bower_components/bootstrap-sass/fonts/glyphicons-halflings-regular.woff 
+bower_components/bootstrap-sass/fonts/glyphicons-halflings-regular.ttf  
+bower_components/bootstrap-sass/fonts/glyphicons-halflings-regular.svg  
+bower_components/bootstrap-sass/fonts/glyphicons-halflings-regular.eot
+
 
 NETWORK: 
 *

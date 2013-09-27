@@ -1,0 +1,61 @@
+$icon-font-path: '../bower_components/bootstrap-sass/fonts/';
+@import "bootstrap-sass/lib/bootstrap";
+
+body {
+    background: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+.subHeading{
+    border-bottom: #DDD 1px solid;
+    line-height: 30px;
+    margin: 26px 0;
+    color: #777;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+}
+a.add-contact{
+    margin-top: -36px;
+    margin-bottom: 31px;
+    color: #888;
+    text-decoration: none;
+}
+.add-contact:hover{
+    color:#222;
+}
+.contactList{
+    margin-top: 20px;  
+   
+    .row{
+        padding: 10px 0;  
+        border-bottom: 1px #EEE solid;       
+    }
+}
+.contact-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin:10px 0;
+}
+.contact-phone,.contact-email{
+    display:block;
+    color:#555;
+    line-height: 24px;
+    .glyphicon{
+        color:#bbb;
+        margin-right: 6px;
+    }
+}
+.contact-options{
+    margin:10px 0;
+    text-align:right;
+    .glyphicon{
+        color:#bbb;
+        margin-right: 6px;
+    }
+    .glyphicon:hover{
+         color:#444;
+    }
+    .glyphicon-trash:hover{
+        color:#D30808;
+    }
+}

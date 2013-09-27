@@ -1,0 +1,15 @@
+CACHE MANIFEST
+index.html
+
+styles/main.css
+
+http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js
+http://code.angularjs.org/1.2.0-rc.2/angular.min.js
+http://code.angularjs.org/1.2.0-rc.2/angular-route.min.js
+scripts/main.js
+
+views/main.html
+views/add.html
+
+NETWORK: 
+*
